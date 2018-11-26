@@ -6,6 +6,7 @@ const Schema=mongoose.Schema
 
 const PostSchema=new Schema({
     title: String,
+    desc: String,
     picture: String,
     categories: [
         {
