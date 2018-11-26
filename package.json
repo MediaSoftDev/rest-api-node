@@ -1,0 +1,32 @@
+{
+  "name": "rest-api-node",
+  "version": "1.0.0",
+  "description": "Software of Development with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "mongodb"
+  ],
+  "author": "Daniel Alejo Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-promise-router": "^3.0.3",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.13",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MediaSoftDev/rest-api-node.git"
+  }
+}
